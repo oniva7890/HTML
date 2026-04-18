@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #myElement {
+        border: 1px solid #e5aefa;
+        width: 900px;
+        height: 200px;
+      }
+    </style>
+    <meta charset="utf-8">
+  </head>
+  <body bgcolor="black" text="White">
+    <h2 ">Click the button to make the story more exciting</h2>
+    <div id="myElement">Alice’s boredom on a riverbank evaporated when she chased a waistcoat-wearing White Rabbit down a deep hole, plunging her into a nonsensical world where logic was a mere suggestion. After navigating a series of size-altering snacks and potions, she encountered a gallery of eccentric inhabitants, including a smoke-blowing Caterpillar, a disappearing Cheshire Cat, and the perpetually frantic participants of a Mad Tea Party. Her journey led her to the court of the hot-tempered Queen of Hearts, where a chaotic croquet match transitioned into a ridiculous trial over stolen tarts. When the Queen finally ordered her execution, Alice realized the absurdity of her surroundings, boldly declaring the court to be nothing but a pack of cards just as she drifted back into reality, waking on the grass to find her extraordinary adventure had been a dream.</div>
+    <br>
+    <button type="button" onclick="changeStyle()">Click Me</button>
+    <script>
+      function changeStyle() {
+        var element = document.getElementById("myElement");
+        element.style.color = "#e5aefa";
+      }
+    </script>
+  </body>
+</html>
